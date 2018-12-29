@@ -1,0 +1,36 @@
+<div *ngIf="hashtag">
+    
+    <table>
+        <tr>
+          <th>IdHashTag</th>
+          <th>Description</th>
+          <th>Date de création</th>
+          <th>Source</th>
+          <th>code langue</th>
+          <th>Utilisateur</th>
+          <th>Entities</th>
+          <tr >
+              <td>{{hashtag.id}}</td>
+              <td>{{hashtag.text}}</td>
+              <td>{{hashtag.createdAt}}</td>
+              <td>{{hashtag.source}}</td>
+              <td>{{hashtag.languageCode}}</td>
+              <td >
+<ul>
+    <li>{{hashtag.user.id}}</li>
+    <li>{{hashtag.user.screenName}}</li>
+    <li>{{hashtag.user.location}}</li>
+</ul>
+                              </td>
+              <td><ul>
+                <li>{{hashtag.entities.tags.text}}</li>
+                <li>{{hashtag.entities.media}}</li>
+                <li>{{hashtag.entities.mentions}}</li>
+            </ul></td>
+        </tr>
+        <tr>
+         
+        </tr>
+      </table>
+</div>
+  

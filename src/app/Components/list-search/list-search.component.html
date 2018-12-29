@@ -1,0 +1,13 @@
+<input type="text" name="recherche" [(ngModel)]="tagText">
+<button (click)="searchTag(tagText)"> rechercher </button>
+
+<br> <br>
+<fieldset *ngFor="let tag of  hashtags">
+<div>
+  <label> Hash Tag  Cherché: </label>
+  <label>{{tag.text}}</label>
+  <label>{{tag.id}}</label>
+<br> <br>
+<a routerLink="/detail/{{tag.id}}">Détails</a>
+</div>
+</fieldset>

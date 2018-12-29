@@ -3,7 +3,7 @@
     "codelyzer"
   ],
   "rules": {
-    "arrow-return-shorthand": true,
+    /*"arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
     "comment-format": [
@@ -126,6 +126,6 @@
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
-    "directive-class-suffix": true
+    "directive-class-suffix": true*/
   }
 }
