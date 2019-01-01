@@ -13,7 +13,7 @@ import { HttpClientModule }    from '@angular/common/http';
 
 const appRoutes: Routes = [
 
-  {path: '' , component: AppComponent },
+  {path: '' ,redirectTo: '/list', pathMatch: 'full'  },
   {path: 'list' , component: ListSearchComponent },
   { path: 'detail/:id' , component: DetailsListComponent }
 
