@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 # DispatcherFront
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
@@ -30,3 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # dispatcher-front
 composant "dispatcher" lance la recherche dans la base locale et au même temps envoie à twitter la requête
 >>>>>>> branch 'master' of https://github.com/010192MtarOussema/dispatcher-front.git
+
+
+wathek
